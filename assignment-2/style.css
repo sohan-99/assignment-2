@@ -1,0 +1,13 @@
+/* navber section  */
+.nav-container{
+    border: 2px solid red;
+    min-height: 50px;
+}
+.logo-container{
+    border: 2px solid rgb(21, 170, 29);
+    min-height: 50px;
+}
+.nav-items-container{
+    border: 2px solid rgb(75, 25, 212);
+    min-height: 50px;
+}
