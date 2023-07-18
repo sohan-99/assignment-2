@@ -1,13 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans' ;
+}
 /* navber section  */
 .nav-container{
     border: 2px solid red;
     min-height: 50px;
+    display: flex;
+    align-items: center;
 }
 .logo-container{
-    border: 2px solid rgb(21, 170, 29);
+    /* border: 2px solid rgb(21, 170, 29); */
     min-height: 50px;
+    display: flex;
+    width: 50%;
+}
+.logo-container img{
+    /* width: 50%; */
+    /* object-fit: cover; */
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 18px;
+
+}
+.color-letter{
+    color: #FF42A5 ;
 }
 .nav-items-container{
     border: 2px solid rgb(75, 25, 212);
     min-height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items-container a{
+    text-decoration: none;
 }
