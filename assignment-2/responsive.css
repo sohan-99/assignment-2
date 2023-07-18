@@ -16,4 +16,19 @@
     margin-bottom: 10px;
 
 }
+.banner-container {
+    flex-direction: column;
+
+}
+.div1-banner-text {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+.div2-banner-img {
+   
+    width: 100%;
+    margin-top: 50px;
+}
 }
