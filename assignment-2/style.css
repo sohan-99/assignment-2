@@ -231,3 +231,92 @@ line-height: 45px;
 
 
 /* we-are-gamer secction end  */
+/* video-game-container start  */
+.video-game-container{
+ margin-bottom: 70px;
+ max-width: 1280px;
+ margin: 0 auto;
+ min-height: 50px;
+ /* display: flex; */
+}
+.video-game-title{
+text-align: center;
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.video-game-description{
+text-align: center;
+}
+.image-grid{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 20px;
+  margin: 48px auto;
+  justify-content: center;
+}
+.image-grid img{
+    width: 100%;
+}
+
+.video-game-img1 img1{
+    width: 20%;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* .card3:hover{
+    background-color: #0B0223;
+    background-image: url('./images/icons8-play-20.png');
+}
+.card3:hover .overlay {
+    opacity: 1;
+} */
+/* video section end  */
+
+/* new section strated  */
+.section-3{
+border: 2px solid red;
+margin-bottom: 70px;
+max-width: 1280px;
+margin: 0 auto;
+min-height: 50px;
+display: flex;
+}
+.section-3-text{
+    border: 2px solid green;
+    width: 50%;
+    text-align: center;
+    /* font-size: 30px; */
+    margin-left: 10px;
+   
+}
+.section-3-img{
+border: 2px solid teal;
+width: 50%;
+/* margin-top: 50px; */
+margin-right: 10px;
+}
+.section-3-img img{
+    height: 100%;
+    width: 100%;
+}
+.no-download{
+
+}
+/* footer strar */
+.footer{
+    background: #0B0223;
+}
+.logo-container-footer{
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+
+}

@@ -86,8 +86,24 @@
 .we-are-gamer-text .wg-span{
     margin-top: 70px;
 }
+.image-grid{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+.video-game-title{
+    text-align: center;
+    color: #0B0223;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+    .video-game-description{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-right: 7px;
+        }
 
-
-
-
+/* video section end  */
 }
