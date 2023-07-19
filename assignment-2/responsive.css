@@ -106,4 +106,22 @@
         }
 
 /* video section end  */
+/* footer start  */
+.contact{
+    flex-direction: column;
+}
+
+.social-contact{
+     
+    flex-direction: column;
+}
+
+.other-contact{
+   flex-direction: column;
+}
+.copyright{
+    flex-direction: column;
+}
+
+
 }
