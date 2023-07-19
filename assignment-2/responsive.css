@@ -122,6 +122,9 @@
 .copyright{
     flex-direction: column;
 }
-
+.section-3{
+    flex-direction: column;
+    margin-left: 20px;
+}
 
 }
